@@ -1,0 +1,43 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: fixed; /* Posisikan navbar tetap di atas */
+    top: 0; /* Pastikan berada di atas */
+    width: 100%; /* Mengisi lebar layar */
+    z-index: 1000; /* Pastikan navbar di atas konten lain */
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    margin: 0;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .nav-links li a:hover {
+    color: #ffcc00; 
+  }
+  
+  body {
+    margin: 0;
+    padding-top: 80px; 
+  }  
